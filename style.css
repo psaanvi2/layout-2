@@ -1,0 +1,54 @@
+div{
+    border: 3px pink;
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr 3fr ;
+    grid-template-rows: 1fr 6fr 2fr 4fr 1fr;
+}
+
+.logo{
+    grid-column: 1/3;
+    grid-row: 1/2;
+    background-color: aquamarine;
+    text-align: center;
+    color: black;
+    font: 20px;
+}
+
+.navagation{
+    grid-column: 1/2;
+    grid-row: 2/4;
+    background-color: rgb(127, 178, 255);
+    text-align: center;
+    color: black;
+    font: 20px;
+}
+
+.head{
+    grid-column: 2/3;
+    grid-row: 2/3;
+    background-color: rgb(221, 255, 127);
+    text-align: center;
+    color: black;
+    font: 20px;
+}
+
+
+.bodyarea{
+    grid-column: 2/3;
+    grid-row: 3/4;
+    background-color: rgb(106, 228, 127);
+    text-align: center;
+    color: black;
+    font: 20px;   
+}
+
+.footer{
+    grid-column: 1/3;
+    grid-row: 4/5;
+    background-color: rgb(252, 166, 68);
+    text-align: center;
+    color: black;
+    font: 20px;  
+}
